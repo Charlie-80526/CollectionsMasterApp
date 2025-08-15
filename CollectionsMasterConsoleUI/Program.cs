@@ -37,10 +37,12 @@ namespace CollectionsMasterConsoleUI
                 2) Second way, Create a custom method (scroll to bottom of page to find ⬇⬇⬇)
                 Then print BOTH reversed arrays to the console.
             */
-            Array.Reverse(numbers);
+            //Array.Reverse(numbers);
             Console.WriteLine("All Numbers Reversed:");
+            NumberPrinter(numbers);
 
             Console.WriteLine("---------REVERSE CUSTOM------------");
+            ReverseArray(numbers);
 
             Console.WriteLine("-------------------");
 
